@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="public/style/swiper-4.2.2.min.css">
+    <link rel="stylesheet" href="public/style/style.css">
+    <link rel="stylesheet" href="public/fonts/iconfont.css">
+    <script src="public/script/betterscroll.min.js"></script>
+    <script src="public/script/flexible.js"></script>
+    <script src="public/script/swiper-4.2.2.min.js"></script>
+</head>
+
+<body>
+    <div class="wrap">
+
+        <header>
+            <a href="javascript:;">
+                <img src="public/img/首页-logo@2x.png" alt="">
+            </a>
+            <div class="lb">
+                <input type="text" placeholder="搜索项目或医院">
+                <img src="public/img/搜索icon@2x.png" alt="" class="search">
+            </div>
+            <a href="javascript:;">
+                分类
+            </a>
+        </header>
+        <section>
+            <div>
+                <div class="ban">
+                    <div class="swiper-container page">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="public/img/banner@2x.png" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="public/img/banner@2x.png" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="public/img/banner@2x.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="cont">
+                    <ul>
+                        <li>
+                            <img src="public/img/成单@2x.png" alt="">
+                            <p>成单奖励</p>
+                        </li>
+                        <li>
+                            <img src="public/img/推荐@2x.png" alt="">
+                            <p>成单奖励</p>
+                        </li>
+                        <li>
+                            <img src="public/img/新品@2x.png" alt="">
+                            <p>成单奖励</p>
+                        </li>
+                        <li>
+                            <img src="public/img/集采@2x.png" alt="">
+                            <p>成单奖励</p>
+                        </li>
+                        <li>
+                            <img src="public/img/成单@2x.png" alt="">
+                            <p>成单奖励</p>
+                        </li>
+                        <li>
+                            <img src="public/img/推荐@2x.png" alt="">
+                            <p>成单奖励</p>
+                        </li>
+                        <li>
+                            <img src="public/img/新品@2x.png" alt="">
+                            <p>成单奖励</p>
+                        </li>
+                        <li>
+                            <img src="public/img/集采@2x.png" alt="">
+                            <p>成单奖励</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="tit">
+                    <img src="public/img/标示icon@2x.png" alt="">
+                    <em>金牌商家</em>
+                </div>
+                <div class="contbox">
+                    <div>
+                        <ul>
+                            <li>
+                                <img src="public/img/国际@2x.png" alt="">
+                            </li>
+                            <li>
+                                <img src="public/img/黄@2x.png" alt="">
+                            </li>
+                            <li>
+                                <img src="public/img/国际@2x.png" alt="">
+                            </li>
+                            <li>
+                                <img src="public/img/黄@2x.png" alt="">
+                            </li>
+                        </ul>
+                    </div>
+
+
+
+
+
+                </div>
+            </div>
+
+        </section>
+        <footer>
+            <ul>
+                <li>
+                    <img src="public/img/首页@2x.png" alt=""> 首页
+                </li>
+                <li>
+                    <img src="public/img/首页@2x.png" alt=""> 我的
+                </li>
+            </ul>
+        </footer>
+    </div>
+</body>
+
+</html>
+<script>
+    new Swiper('.page', {
+        effect: 'cube',
+        slidesPerView: 3,
+        centeredSlides: true
+    })
+    new Swiper('.lar', {
+        loop: true,
+        autoplay: true
+    })
+    new BScroll('section')
+</script>
